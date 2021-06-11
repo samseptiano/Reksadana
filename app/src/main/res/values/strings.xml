@@ -1,0 +1,27 @@
+<resources>
+	<string name="app_name">BareksaApp</string>
+	<string name="dana_kelolaan_title">Dana Kelolaan</string>
+	<string name="imbal_hasil_title">Imbal Hasil</string>
+
+	<string name="jenis_reksa_dana">Jenis reksa dana</string>
+	<string name="imbal_hasil">Imbal hasil</string>
+	<string name="dana_kelolaan">Dana kelolaan</string>
+	<string name="min_pembelian">Min. pembelian</string>
+	<string name="jangka_waktu">Jangka waktu</string>
+	<string name="tingkat_resiko">Tingkat risiko</string>
+	<string name="peluncuran">Peluncuran</string>
+
+	<string name="detail">Detail</string>
+	<string name="beli">Beli</string>
+	<!-- TODO: Remove or change this placeholder text -->
+	<string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+	<string name="one_w">1W</string>
+	<string name="one_y">1Y</string>
+	<string name="three_y">3Y</string>
+	<string name="five_y">5Y</string>
+	<string name="ten_y">10Y</string>
+	<string name="all">All</string>
+
+</resources>

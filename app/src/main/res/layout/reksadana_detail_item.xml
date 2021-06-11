@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:orientation="vertical"
+	android:layout_margin="10dp"
+    android:layout_height="wrap_content">
+
+	<LinearLayout
+		android:id="@+id/lnName"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:padding="@dimen/l_margin"
+		android:background="@drawable/button_green_light_theme"
+		android:orientation="vertical">
+
+		<TextView
+			android:background="@drawable/icon_logo"
+			android:id="@+id/iconLogo"
+			android:layout_width="@dimen/xxl_margin"
+			android:layout_height="@dimen/xxl_margin"
+			android:text="5"
+			style="@style/TextView20sp"
+			android:textColor="@color/white"
+			android:gravity="center" />
+		<TextView
+			android:id="@+id/name"
+			style="@style/TextView12sp"
+			android:layout_width="wrap_content"
+			android:textColor="@color/black"
+			android:ellipsize="end"
+			android:layout_marginTop="@dimen/l_margin"
+			android:layout_height="wrap_content"
+			android:gravity="left"
+			android:text="@string/app_name"/>
+	</LinearLayout>
+	<TextView
+		style="@style/TextView12sp"
+		android:layout_width="wrap_content"
+		android:textColor="@color/grey_dark"
+		android:layout_marginTop="@dimen/ll_margin"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:text="@string/jenis_reksa_dana"/>
+
+	<TextView
+		style="@style/TextView12sp"
+		android:id="@+id/jenisReksadana"
+		android:layout_width="match_parent"
+		android:textColor="@color/black"
+		android:padding="@dimen/l_margin"
+		android:layout_marginTop="@dimen/s_margin"
+		android:layout_height="wrap_content"
+		android:maxHeight="@dimen/xxl_margin"
+		android:background="@drawable/button_green_light_theme"
+		android:gravity="left"
+		android:text="@string/jenis_reksa_dana"/>
+	<TextView
+		style="@style/TextView12sp"
+		android:layout_width="wrap_content"
+		android:textColor="@color/grey_dark"
+		android:layout_marginTop="@dimen/ll_margin"
+		android:layout_height="match_parent"
+		android:gravity="left"
+		android:text="@string/imbal_hasil"/>
+
+	<TextView
+		style="@style/TextView12sp"
+		android:id="@+id/imbalHasil"
+		android:layout_width="match_parent"
+		android:textColor="@color/black"
+		android:padding="@dimen/l_margin"
+		android:maxHeight="@dimen/xxl_margin"
+		android:layout_marginTop="@dimen/s_margin"
+		android:layout_height="wrap_content"
+		android:background="@drawable/button_green_light_theme"
+		android:gravity="left"
+		android:text="@string/imbal_hasil"/>
+	<TextView
+		style="@style/TextView12sp"
+		android:layout_width="wrap_content"
+		android:textColor="@color/grey_dark"
+		android:layout_marginTop="@dimen/ll_margin"
+		android:layout_height="wrap_content"
+		android:gravity="left"
+		android:text="@string/dana_kelolaan"/>
+
+	<TextView
+		android:id="@+id/danaKelolaan"
+		android:layout_width="match_parent"
+		android:textColor="@color/black"
+		android:padding="@dimen/l_margin"
+		android:layout_marginTop="@dimen/s_margin"
+		android:layout_height="wrap_content"
+		style="@style/TextView12sp"
+		android:background="@drawable/button_green_light_theme"
+		android:gravity="left"
+		android:maxHeight="@dimen/xxl_margin"
+		android:text="@string/dana_kelolaan"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:textColor="@color/grey_dark"
+		android:layout_marginTop="@dimen/l_margin"
+		android:layout_height="match_parent"
+		android:gravity="left"
+		style="@style/TextView12sp"
+		android:text="@string/min_pembelian"/>
+
+	<TextView
+		android:id="@+id/minPembelian"
+		android:layout_width="match_parent"
+		android:textColor="@color/black"
+		android:padding="@dimen/l_margin"
+		android:layout_marginTop="@dimen/s_margin"
+		android:layout_height="wrap_content"
+		android:background="@drawable/button_green_light_theme"
+		android:gravity="left"
+		android:maxHeight="@dimen/xxl_margin"
+		style="@style/TextView12sp"
+		android:text="@string/min_pembelian"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:textColor="@color/grey_dark"
+		android:layout_marginTop="@dimen/ll_margin"
+		android:layout_height="wrap_content"
+		android:gravity="left"
+		style="@style/TextView12sp"
+		android:text="@string/jangka_waktu"/>
+
+	<TextView
+		android:id="@+id/jangkaWaktu"
+		android:layout_width="match_parent"
+		android:textColor="@color/black"
+		android:padding="@dimen/l_margin"
+		android:layout_marginTop="@dimen/s_margin"
+		android:layout_height="wrap_content"
+		android:background="@drawable/button_green_light_theme"
+		android:gravity="left"
+		android:maxHeight="@dimen/xxl_margin"
+		style="@style/TextView12sp"
+		android:text="@string/jangka_waktu"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:textColor="@color/grey_dark"
+		android:layout_marginTop="@dimen/ll_margin"
+		android:layout_height="match_parent"
+		android:gravity="left"
+		style="@style/TextView12sp"
+		android:text="@string/tingkat_resiko"/>
+
+	<TextView
+		android:id="@+id/tingkatResiko"
+		android:layout_width="match_parent"
+		android:textColor="@color/black"
+		android:padding="@dimen/l_margin"
+		android:layout_marginTop="@dimen/s_margin"
+		android:layout_height="wrap_content"
+		android:background="@drawable/button_green_light_theme"
+		android:gravity="left"
+		android:maxHeight="@dimen/xxl_margin"
+		style="@style/TextView12sp"
+
+		android:text="@string/tingkat_resiko"/>
+	<TextView
+		android:layout_width="wrap_content"
+		android:textColor="@color/grey_dark"
+		android:layout_marginTop="@dimen/ll_margin"
+		android:layout_height="wrap_content"
+		android:gravity="left"
+		style="@style/TextView12sp"
+
+		android:text="@string/peluncuran"/>
+
+	<TextView
+		android:id="@+id/peluncuran"
+		android:layout_width="match_parent"
+		android:textColor="@color/black"
+		android:padding="@dimen/l_margin"
+		android:layout_marginTop="@dimen/s_margin"
+		android:layout_height="wrap_content"
+		android:background="@drawable/button_green_light_theme"
+		android:gravity="left"
+		style="@style/TextView12sp"
+		android:maxHeight="@dimen/xxl_margin"
+		android:text="@string/peluncuran"/>
+
+	<Button
+		android:id="@+id/buttonDetail"
+		style="@style/TextView14sp"
+		android:layout_marginTop="@dimen/ll_margin"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="@drawable/button_green_theme_border"
+		android:textColor="@color/green_primary"
+		android:text="Detail"
+		android:textStyle="bold"/>
+	<Button
+		android:id="@+id/buttonBeli"
+		style="@style/TextView14sp"
+		android:layout_width="match_parent"
+		android:layout_marginTop="@dimen/l_margin"
+		android:layout_height="wrap_content"
+		android:background="@drawable/button_green_theme"
+		android:textStyle="bold"
+		android:text="Beli" />
+</LinearLayout>
